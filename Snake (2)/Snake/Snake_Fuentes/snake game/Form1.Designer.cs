@@ -1,4 +1,4 @@
-﻿namespace snake_game
+namespace snake_game
 {
     partial class Form1
     {
@@ -109,7 +109,8 @@
             this.spaceBarLabel.Name = "spaceBarLabel";
             this.spaceBarLabel.Size = new System.Drawing.Size(280, 117);
             this.spaceBarLabel.TabIndex = 1;
-            this.spaceBarLabel.Text = "Presiona Barra Espaciadora para comenzar";
+            this.spaceBarLabel.Text = "Presiona barra espaciadora para comenzar";
+            this.spaceBarLabel.Click += new System.EventHandler(this.spaceBarLabel_Click);
             // 
             // pictureBox2
             // 
@@ -139,9 +140,9 @@
             // 
             this.pictureBox4.BackgroundImage = global::snake_game.Properties.Resources.continua;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Location = new System.Drawing.Point(374, 38);
+            this.pictureBox4.Location = new System.Drawing.Point(373, 38);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(100, 30);
+            this.pictureBox4.Size = new System.Drawing.Size(101, 30);
             this.pictureBox4.TabIndex = 10;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
@@ -205,4 +206,3 @@
         private System.Windows.Forms.ToolStripStatusLabel Ultimoscore;
     }
 }
-
