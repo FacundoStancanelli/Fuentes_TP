@@ -1,4 +1,4 @@
-﻿namespace snake_game
+namespace snake_game
 {
     partial class Form3
     {
@@ -37,11 +37,11 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.Wheat;
+            this.label1.BackColor = System.Drawing.Color.BurlyWood;
             this.label1.Font = new System.Drawing.Font("Perpetua Titling MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, -4);
+            this.label1.Location = new System.Drawing.Point(-1, -3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(892, 73);
+            this.label1.Size = new System.Drawing.Size(832, 105);
             this.label1.TabIndex = 0;
             this.label1.Text = "PREGUNTA";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -49,7 +49,7 @@
             // A
             // 
             this.A.BackColor = System.Drawing.Color.Bisque;
-            this.A.Location = new System.Drawing.Point(178, 187);
+            this.A.Location = new System.Drawing.Point(48, 297);
             this.A.Name = "A";
             this.A.Size = new System.Drawing.Size(152, 91);
             this.A.TabIndex = 1;
@@ -60,7 +60,7 @@
             // B
             // 
             this.B.BackColor = System.Drawing.Color.Bisque;
-            this.B.Location = new System.Drawing.Point(622, 187);
+            this.B.Location = new System.Drawing.Point(240, 297);
             this.B.Name = "B";
             this.B.Size = new System.Drawing.Size(150, 91);
             this.B.TabIndex = 2;
@@ -71,9 +71,9 @@
             // C
             // 
             this.C.BackColor = System.Drawing.Color.Bisque;
-            this.C.Location = new System.Drawing.Point(169, 495);
+            this.C.Location = new System.Drawing.Point(454, 297);
             this.C.Name = "C";
-            this.C.Size = new System.Drawing.Size(152, 98);
+            this.C.Size = new System.Drawing.Size(152, 91);
             this.C.TabIndex = 3;
             this.C.Text = "C) ";
             this.C.UseVisualStyleBackColor = false;
@@ -82,9 +82,9 @@
             // D
             // 
             this.D.BackColor = System.Drawing.Color.Bisque;
-            this.D.Location = new System.Drawing.Point(622, 495);
+            this.D.Location = new System.Drawing.Point(649, 297);
             this.D.Name = "D";
-            this.D.Size = new System.Drawing.Size(150, 98);
+            this.D.Size = new System.Drawing.Size(150, 91);
             this.D.TabIndex = 4;
             this.D.Text = "D) ";
             this.D.UseVisualStyleBackColor = false;
@@ -95,7 +95,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::snake_game.Properties.Resources.Kohelet_Fuentes;
-            this.ClientSize = new System.Drawing.Size(1169, 605);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(828, 417);
             this.Controls.Add(this.D);
             this.Controls.Add(this.C);
             this.Controls.Add(this.B);
