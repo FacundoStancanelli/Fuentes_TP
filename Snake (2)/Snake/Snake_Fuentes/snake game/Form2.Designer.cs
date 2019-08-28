@@ -1,4 +1,4 @@
-﻿namespace snake_game
+namespace snake_game
 {
     partial class Form2
     {
@@ -33,18 +33,19 @@
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(172, 36);
+            this.label1.Location = new System.Drawing.Point(310, 100);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(485, 262);
+            this.label1.Size = new System.Drawing.Size(295, 174);
             this.label1.TabIndex = 0;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::snake_game.Properties.Resources.Profesora;
+            this.BackgroundImage = global::snake_game.Properties.Resources.teacher_with_blackboard_design_1214_222;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(709, 487);
             this.Controls.Add(this.label1);
