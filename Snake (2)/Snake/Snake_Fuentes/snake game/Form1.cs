@@ -23,7 +23,7 @@ namespace snake_game
         bool derecha = false;
         bool arriba = false;
         bool abajo = false;
-        int Puntos_pregunta = 1;
+        int Puntos_pregunta = 4;
         int score = 0;// ---  puntuacion
 
         public Form1()
